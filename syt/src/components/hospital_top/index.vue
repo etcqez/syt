@@ -25,36 +25,44 @@
   //   background: #fff;
   display: flex;
   justify-content: center;
-}
-.content {
-  width: 1200px;
-  height: 70px;
-  background: white;
-  display: flex;
-  justify-content: space-between;
-}
-.left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-  }
-  p {
-    font-style: 20px;
-    color: #55a6fe;
-  }
-}
-.right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  color: grey;
-  .help {
-    margin-right: 10px;
+
+  .content {
+    width: 1200px;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      // 侧轴多行对齐
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      p {
+        font-style: 20px;
+        color: dodgerblue;
+        // color: skyblue;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: grey;
+
+      .help {
+        margin-right: 10px;
+      }
+    }
   }
 }
 </style>
